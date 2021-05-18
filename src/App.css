@@ -1,0 +1,261 @@
+.section {
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  padding: 20px auto;
+  background: #f8f8f8;
+}
+
+.title {
+  position: relative;
+  top: 50px;
+  /* header 2 */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #3a86ff;
+}
+.open-quote {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+.close-quote {
+  position: absolute;
+  top: 100px;
+  right: 90px;
+}
+
+.group {
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  background: #f8f8f8;
+}
+.group-fade {
+  position: absolute;
+  top: 420px;
+  right: 170px;
+  opacity: 0.4;
+}
+.text-section {
+  position: relative;
+  text-align: center;
+  width: 715px;
+  right: 40px;
+  height: 345px;
+  background: #f9f9f9;
+  /* card shadow */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 50px 300px;
+  border: 5px solid #f9f9f9;
+  /* card shadow */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.header-text-section {
+  height: 150px;
+  padding: 50px 82px;
+  background: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.user-image {
+  left: 670px;
+  top: -60px;
+  height: 99.72px;
+  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+.user-photo {
+  position: relative;
+  top: -70px;
+}
+
+h5 {
+  position: relative;
+  top: -75px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .text-section {
+    border-radius: 20px 20px 0px 0px;
+    width: 266px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #f9f9f9;
+  }
+  .group {
+    width: 115px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+  }
+  .group-fade {
+    width: 115px;
+    position: relative;
+    left: 200px;
+    top: 390px;
+    opacity: 0.4;
+  }
+  .header-text-section {
+    height: 180px;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .open-quote {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+  .close-quote {
+    position: absolute;
+    top: 140px;
+    right: 40px;
+  }
+  .title {
+    position: relative;
+    top: 70px;
+    /* header 2 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #3a86ff;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .text-section {
+    border-radius: 20px 20px 0px 0px;
+    width: 75%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #f9f9f9;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 30px auto;
+  }
+  .header-text-section {
+    height: 180px;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 auto;
+    width: 89%;
+  }
+  .group {
+    width: 115px;
+    position: relative;
+    top: 120px;
+    left: 15px;
+  }
+  .group-fade {
+    width: 115px;
+    position: absolute;
+    right: 20px;
+    top: 560.33px;
+    opacity: 0.4;
+  }
+  .open-quote {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+  }
+  .close-quote {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+  }
+  .title {
+    position: relative;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #3a86ff;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .text-section {
+    border-radius: 20px 20px 0px 0px;
+    width: 75%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #f9f9f9;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 30px auto;
+  }
+  .header-text-section {
+    height: 180px;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 auto;
+    width: 89%;
+  }
+  .group {
+    width: 115px;
+    position: relative;
+    top: 120px;
+    left: 70px;
+  }
+  .group-fade {
+    width: 115px;
+    position: absolute;
+    right: 60px;
+    top: 580.33px;
+    opacity: 0.4;
+  }
+  .open-quote {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+  }
+  .close-quote {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+  }
+  .title {
+    position: relative;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #3a86ff;
+  }
+}
